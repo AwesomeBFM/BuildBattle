@@ -4,3 +4,18 @@ main: dev.awesomebfm.buildbattle.BuildBattle
 api-version: 1.19
 authors: [ AwesomeBFM ]
 description: Custom build competitions on your own Minecraft server
+commands:
+  buildbattle:
+    description: Main command for the BuildBattle plugin
+    aliases: [ bb ]
+    usage: /buildbattle <command>
+permissions:
+  buildbattle.config:
+    description: Allows the user to change the settings
+    default: op
+  buildbattle.play:
+    description: Allows the user to play BuildBattle
+    default: true
+  buildbattle.start:
+    description: Allows the user to force the game to start
+    default: op
