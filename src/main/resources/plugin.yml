@@ -1,0 +1,6 @@
+name: BuildBattle
+version: '${project.version}'
+main: dev.awesomebfm.buildbattle.BuildBattle
+api-version: 1.19
+authors: [ AwesomeBFM ]
+description: Custom build competitions on your own Minecraft server
